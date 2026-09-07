@@ -19,6 +19,7 @@ export default function ProjectVisual({ project, modules, isFrench }: ProjectVis
   return (
     <div className={`featured-visual visual-${project.id}`}>
       <div className="visual-stage" aria-hidden="true">
+        <span className="visual-status"><i /> live product</span>
         <div className="visual-screen visual-screen-back">
           <span className="vs-bar">
             <i /><i /><i />
