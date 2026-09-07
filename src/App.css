@@ -589,6 +589,7 @@ footer {
 @media (min-width: 1025px) {
   .hero-mark { top: 190px; }
   .hero-image-wrap { top: 160px; }
+  .hero-actions { transform: translateY(24px); }
 }
 
 /* ═══════════════════════════════════════
